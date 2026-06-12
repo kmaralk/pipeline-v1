@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pipeline Hard"
+  short_description: "Full workflow; heavy means C4 A3"
+  default_prompt: "Use $pipeline-hard for this high-value task. If the user says heavy, режим heavy, autonom+heavy, autonomous heavy, or ok, normalize run controls to C4 A3. Treat P as forcing premortem plan review, not as another mode. Treat -P as skipping only optional premortem; do not bypass mandatory high-risk safety gates."

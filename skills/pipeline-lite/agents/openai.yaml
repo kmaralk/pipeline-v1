@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pipeline Lite"
+  short_description: "Fast pipeline for clear technical work"
+  default_prompt: "Use $pipeline-lite for this clear technical task: make a short brief, implement surgically, verify, and report evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pipeline Navigator"
+  short_description: "Route work; update skills safely"
+  default_prompt: "Use $pipeline to choose the right pipeline mode. If the user says pipeline-update or pipeline update, inspect the source, preserve working behavior, and augment the pipeline skill before choosing a mode. If the user says heavy, режим heavy, autonom+heavy, autonomous heavy, or ok, normalize run controls to C4 A3. Treat P as forcing premortem plan review, not as another mode. Treat -P as skipping only optional premortem; do not bypass mandatory high-risk safety gates."

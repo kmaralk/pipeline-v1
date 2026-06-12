@@ -1,0 +1,127 @@
+[
+  {
+    "query": "Хочу запустить pipeline на новую задачу — поправить дубликацию в PR-workflow. Какой режим выбрать, lite или deep?",
+    "should_trigger": true,
+    "note": "direct mode-selection intent in Russian"
+  },
+  {
+    "query": "/pipeline у меня есть идея для фичи, но пока сырая — куда её лучше направить?",
+    "should_trigger": true,
+    "note": "slash invocation plus raw idea"
+  },
+  {
+    "query": "Run the pipeline for me — need to add a dashboard widget, feature is clear, small scope.",
+    "should_trigger": true,
+    "note": "English run-the-pipeline phrasing"
+  },
+  {
+    "query": "Запусти pipeline-deep, задача большая, 20 TDD шагов, хочу чтобы Codex помог с планом и реализацией batch'ами.",
+    "should_trigger": true,
+    "note": "direct pipeline-deep request"
+  },
+  {
+    "query": "В pipeline перед planning предложи обычный план, cross-review или чтобы Codex расписал TDD plan.",
+    "should_trigger": true,
+    "note": "pipeline skill maintenance request"
+  },
+  {
+    "query": "Какой режим pipeline выбрать для небольшого bugfix, если файлы и тесты уже понятны?",
+    "should_trigger": true,
+    "note": "mode-selection question"
+  },
+  {
+    "query": "Нужно через pipeline улучшить существующий skill, добавить evals и обновить активные копии.",
+    "should_trigger": true,
+    "note": "pipeline-family skill-change request"
+  },
+  {
+    "query": "Выбери между pipeline-lite и pipeline-hard: задача про платежи, нужен полный workflow и внешний oracle.",
+    "should_trigger": true,
+    "note": "mode comparison with hard-mode triggers"
+  },
+  {
+    "query": "Давай через pipeline распланируем backend/frontend contract change и потом реализуем.",
+    "should_trigger": true,
+    "note": "workflow routing for engineering task"
+  },
+  {
+    "query": "Use pipeline to decide whether this raw product idea needs discovery before code.",
+    "should_trigger": true,
+    "note": "mode routing for raw idea"
+  },
+  {
+    "query": "Пофикси баг в локальном проекте, файл и тест примерно понятны.",
+    "should_trigger": true,
+    "note": "implicit default engineering router for bugfix work"
+  },
+  {
+    "query": "Добавь настройку в существующий экран и проверь, что пользовательский сценарий работает.",
+    "should_trigger": true,
+    "note": "implicit default engineering router for feature/UI work"
+  },
+  {
+    "query": "Проверь изменения в текущей ветке, найди риски и скажи, что нужно поправить перед merge.",
+    "should_trigger": true,
+    "note": "implicit default engineering router for review work"
+  },
+  {
+    "query": "Напиши тесты на этот регресс и сделай минимальный фикс.",
+    "should_trigger": true,
+    "note": "implicit default engineering router for test-first bugfix work"
+  },
+  {
+    "query": "Обнови документацию по новому поведению и проверь, что ссылки и примеры не врут.",
+    "should_trigger": true,
+    "note": "implicit default engineering router for docs/test verification work"
+  },
+  {
+    "query": "Мне нужен data pipeline в Airflow для загрузки в BigQuery — объясни как строить DAG.",
+    "should_trigger": false,
+    "note": "data-engineering pipeline near miss"
+  },
+  {
+    "query": "Explain what a Unix pipeline is and how the pipe operator works in bash.",
+    "should_trigger": false,
+    "note": "Unix shell pipe near miss"
+  },
+  {
+    "query": "I want to build a CI pipeline for my GitHub Actions project — help me set up the YAML.",
+    "should_trigger": false,
+    "note": "CI/CD pipeline near miss"
+  },
+  {
+    "query": "Build a CI pipeline in Jenkins for running pytest and deploying on merge.",
+    "should_trigger": false,
+    "note": "Jenkins CI/CD near miss"
+  },
+  {
+    "query": "Нарисуй pipeline-диаграмму в draw.io для процесса продаж.",
+    "should_trigger": false,
+    "note": "visual and sales pipeline near miss"
+  },
+  {
+    "query": "Как pipe stdout to file и потом передать вывод в grep?",
+    "should_trigger": false,
+    "note": "stdout shell-pipe near miss"
+  },
+  {
+    "query": "Set up GitLab CI pipeline stages for lint, test, build, and deploy.",
+    "should_trigger": false,
+    "note": "GitLab CI near miss"
+  },
+  {
+    "query": "Помоги сделать dbt pipeline для трансформаций в warehouse.",
+    "should_trigger": false,
+    "note": "dbt data pipeline near miss"
+  },
+  {
+    "query": "Analyze our sales pipeline and forecast deal conversion by stage.",
+    "should_trigger": false,
+    "note": "CRM sales pipeline near miss"
+  },
+  {
+    "query": "Design a deployment pipeline from Docker build to Kubernetes rollout.",
+    "should_trigger": false,
+    "note": "deployment pipeline near miss"
+  }
+]
